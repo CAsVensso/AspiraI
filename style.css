@@ -3055,3 +3055,26 @@ header nav a,
 @media (max-width: 600px) {
   #rules .rules-header h2 { font-size: 42px !important; letter-spacing: 1px !important; }
 }
+
+/* ASPIRAL — новый шрифт верхнего меню */
+.navbar nav a {
+    font-family: 'Manrope', Arial, sans-serif !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.7px !important;
+}
+
+/* Тонкая линия под маленьким логотипом */
+.navbar .logo {
+    position: relative;
+    padding-bottom: 9px;
+}
+
+.navbar .logo::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, #d5dce4, #2878B8 65%, transparent);
+}
