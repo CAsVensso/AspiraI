@@ -3230,9 +3230,9 @@ header nav a,
 
 #home .join-number {
   flex: 0 0 27px;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
+  letter-spacing: 1px;
   color: #7caee4;
 }
 
@@ -3267,14 +3267,3 @@ header nav a,
   }
 }
 
-/* RULES — additional headings */
-
-#rules .rules-section h2,
-#rules .rules-section h3,
-#rules .rules-section h4,
-#rules .rules-section h5 {
-  font-family: 'Michroma', Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.5;
-}
