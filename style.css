@@ -3447,18 +3447,26 @@ body {
     margin: 50px 0 35px;
   }
 }
-/* CONTACT — larger mobile banners */
+/* CONTACT — mobile full-width banners, no cropping */
 @media (max-width: 600px) {
+  #contact .contact-content {
+    width: calc(100% - 12px);
+    max-width: none;
+  }
+
   #contact .contact-person {
-    overflow: hidden;
+    width: 100%;
+    overflow: visible;
   }
 
   #contact .contact-banner {
-    width: 125%;
-    max-width: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
     height: auto;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
+    left: auto;
+    transform: none;
+    object-fit: contain;
   }
 }
