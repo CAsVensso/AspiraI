@@ -3470,3 +3470,19 @@ body {
     object-fit: contain;
   }
 }
+/* CONTACT — banners edge to edge on mobile */
+@media (max-width: 600px) {
+  #contact .contact-banner {
+    width: 100vw;
+    max-width: none;
+    height: auto;
+    margin-left: calc(50% - 50vw);
+    position: static;
+    transform: none;
+    object-fit: contain;
+  }
+
+  #contact .contact-person {
+    overflow: visible;
+  }
+}
