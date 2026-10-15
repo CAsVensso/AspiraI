@@ -3267,3 +3267,36 @@ header nav a,
   }
 }
 
+/* ==================================
+   ASPIRAL — RULES TYPOGRAPHY ONLY
+   HOME IS NOT MODIFIED
+   ================================== */
+
+/* All designed numbers in RULES */
+#rules .rules-section-number,
+#rules .rule-number,
+#rules .activity-value,
+#rules .rest-content li::before {
+  font-family: "Lovelace", serif !important;
+  font-weight: 600;
+  font-style: normal;
+  font-variant-numeric: lining-nums;
+}
+
+/* Section headings like ASPIRAL */
+#rules .rules-section-heading h3 {
+  font-family: "Mirra", serif !important;
+  font-weight: 400 !important;
+  font-size: clamp(19px, 2.5vw, 27px);
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  #rules .rules-section-heading h3 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+}
+
