@@ -3110,3 +3110,81 @@ header nav a,
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
+/* HOME — REQUIRED TO JOIN */
+
+.join-requirements {
+  width: min(100%, 620px);
+  margin: 35px auto 55px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  color: #d6dce6;
+}
+
+.join-requirements h2 {
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #e1e8f2;
+  text-align: left;
+  margin: 0 0 25px;
+}
+
+.join-steps {
+  border-left: 2px solid #568ac3;
+  padding: 5px 0 5px 22px;
+}
+
+.join-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  margin-bottom: 24px;
+}
+
+.join-step:last-child {
+  margin-bottom: 0;
+}
+
+.join-number {
+  color: #7caee4;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+
+.join-step p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .join-requirements {
+    margin: 30px auto 45px;
+    padding: 0 8px;
+  }
+
+  .join-requirements h2 {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+
+  .join-steps {
+    padding-left: 15px;
+  }
+
+  .join-step {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .join-number,
+  .join-step p {
+    font-size: 14px;
+  }
+}
