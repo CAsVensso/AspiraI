@@ -3188,3 +3188,81 @@ header nav a,
     font-size: 14px;
   }
 }
+
+/* ASPIRAL — HOME JOIN REQUIREMENTS */
+
+#home .join-requirements {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 38px auto 50px;
+  padding: 25px 0 0;
+  border-top: 1px solid #4e86bd;
+  text-align: left;
+  color: #d6dce6;
+}
+
+#home .join-requirements h2 {
+  margin: 0 0 24px;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  text-align: left;
+  color: #e1e8f2;
+}
+
+#home .join-steps {
+  border-left: 2px solid #568ac3;
+  padding: 4px 0 4px 20px;
+}
+
+#home .join-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0 0 22px;
+}
+
+#home .join-step:last-child {
+  margin-bottom: 0;
+}
+
+#home .join-number {
+  flex: 0 0 27px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #7caee4;
+}
+
+#home .join-step p {
+  flex: 1;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #d6dce6;
+}
+
+@media (max-width: 600px) {
+  #home .join-requirements {
+    margin-top: 30px;
+  }
+
+  #home .join-steps {
+    padding-left: 14px;
+  }
+
+  #home .join-step {
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  #home .join-step p,
+  #home .join-number {
+    font-size: 14px;
+  }
+}
