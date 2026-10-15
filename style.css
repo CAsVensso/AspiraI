@@ -3228,13 +3228,17 @@ header nav a,
   margin-bottom: 0;
 }
 
+
 #home .join-number {
   flex: 0 0 27px;
+  font-family: Arial, sans-serif !important;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 1px;
   color: #7caee4;
 }
+
 
 #home .join-step p {
   flex: 1;
