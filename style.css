@@ -3095,3 +3095,18 @@ header nav a,
     letter-spacing: 0.3px !important;
     white-space: nowrap;
     }
+/* PATENT — оформление блока как в CHATS */
+
+#patent .patent-registry-label {
+    display: none !important;
+}
+
+#patent .patent-registry {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#patent .patent-names {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
