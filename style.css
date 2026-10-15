@@ -3337,3 +3337,113 @@ body {
 #rules .rules-section-heading h3 {
   font-family: "Michroma", Arial, sans-serif !important;
 }
+
+/* CONTACT */
+
+#contact {
+  overflow-y: auto;
+}
+
+#contact .contact-content {
+  width: min(100% - 32px, 850px);
+  margin: 0 auto;
+  padding: 90px 0 80px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#contact .contact-eyebrow {
+  font-family: Arial, sans-serif;
+  color: #80a9d2;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+}
+
+#contact h2,
+#contact .contact-chat-heading {
+  font-family: "Michroma", Arial, sans-serif !important;
+  color: #e5eaf2;
+  font-weight: 400;
+}
+
+#contact h2 {
+  margin-bottom: 55px;
+}
+
+#contact .contact-person {
+  width: 100%;
+  text-align: center;
+}
+
+#contact .contact-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#contact .contact-telegram {
+  display: inline-block;
+  margin-top: 22px;
+  font-family: Arial, sans-serif !important;
+  font-size: 18px;
+  color: #79baff;
+  text-decoration: none;
+  transition: color .2s, text-shadow .2s;
+}
+
+#contact .contact-telegram:hover {
+  color: #c4e4ff;
+  text-shadow: 0 0 12px rgba(90, 170, 255, .45);
+}
+
+#contact .contact-description,
+#contact .contact-pending {
+  font-family: Arial, sans-serif !important;
+  color: #aeb9c7;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#contact .contact-divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(93, 156, 219, .35);
+  margin: 55px 0;
+}
+
+#contact .contact-main-divider {
+  height: 2px;
+  background: #568ac3;
+  margin: 70px 0 45px;
+}
+
+#contact .contact-chat-heading {
+  font-size: clamp(20px, 4vw, 32px);
+  margin: 0 0 35px;
+}
+
+@media (max-width: 600px) {
+  #contact .contact-content {
+    width: calc(100% - 24px);
+    padding: 75px 0 60px;
+  }
+
+  #contact h2 {
+    margin-bottom: 35px;
+  }
+
+  #contact .contact-telegram {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+
+  #contact .contact-divider {
+    margin: 38px 0;
+  }
+
+  #contact .contact-main-divider {
+    margin: 50px 0 35px;
+  }
+}
