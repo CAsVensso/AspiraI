@@ -3078,3 +3078,20 @@ header nav a,
     height: 1px;
     background: linear-gradient(90deg, #d5dce4, #2878B8 65%, transparent);
 }
+/* ASPIRAL — оформление названий в PATENT */
+#patent .patent-names {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px 16px;
+    width: 100%;
+}
+
+#patent .patent-names span {
+    font-family: 'Manrope', Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.3px !important;
+    white-space: nowrap;
+    }
