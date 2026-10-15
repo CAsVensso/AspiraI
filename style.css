@@ -3301,3 +3301,39 @@ header nav a,
     letter-spacing: 0 !important;
   }
 }
+
+/* ==================================
+   ASPIRAL — STANDARD SMALL TYPOGRAPHY
+   ================================== */
+
+/* Default font for current and future content */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation logo */
+.logo {
+  font-family: Arial, sans-serif !important;
+}
+
+/* Small labels, captions and footer text */
+.logo,
+.card-hint,
+.patent-label,
+.patent-date,
+.patent-footer,
+.section-label,
+.rules-kicker,
+.rules-final-title,
+.chat-kicker,
+.chat-section-label,
+.ergo-kicker {
+  font-family: Arial, sans-serif !important;
+}
+
+/* Preserve large geometric headings */
+.page h1,
+.page h2,
+#rules .rules-section-heading h3 {
+  font-family: "Michroma", Arial, sans-serif !important;
+}
