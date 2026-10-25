@@ -3486,3 +3486,25 @@ body {
     overflow: visible;
   }
 }
+
+/* PATENT — registry alignment */
+
+#patent .patent-registry {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+
+#patent .patent-names {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
